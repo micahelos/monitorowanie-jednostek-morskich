@@ -1,0 +1,30 @@
+version: '3'
+services:
+    api:
+        build: ./tracker.system/
+        ports:
+            - "8080:8080"
+        depends_on:
+            - pgdb
+        networks:
+            - mynet        
+    pgdb:
+        build:
+            context: ./tracker.system
+            dockerfile: DockerPG
+        container_name: pgdb
+        environment:
+            - POSTGRES_DB=postgres
+            - POSTGRES_USER=postgres
+            - POSTGRES_PASSWORD=secret123123
+        volumes:
+            - pgdata:/var/lib/postgresql/data
+        ports:
+            - "5432:5432"
+        networks:
+            - mynet        
+volumes:
+    pgdata:
+networks:
+    mynet:
+        driver: bridge
