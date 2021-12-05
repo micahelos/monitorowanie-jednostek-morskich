@@ -4,6 +4,7 @@
 * Technologie: 
 - Backend: Spring Boot, Hibernate, JUnit
 - Baza danych: Postgres
+  - Dla niektórych zapytań dodano CACHE
 - Frotend: Thymeleaf, HTML, JavaScript,
 - Mapy: leaflet
 - Obrazy: Google Programmable Search Engine: https://programmablesearchengine.google.com/about/
