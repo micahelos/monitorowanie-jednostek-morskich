@@ -90,10 +90,10 @@ Prerekwizyt: Docker
 http://localhost:8080/
 
 - Przykład strony o statku:
-http://localhost:8080/vessels/257033070
+http://localhost:8080/vessels/259983000
 
 - Przykład strony o porcie:
-http://localhost:8080/port/15275
+http://localhost:8080/port/16718
 
 
 
