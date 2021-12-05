@@ -13,10 +13,10 @@
 - Cron - Schedule: Spring 
 - Docker:
   - Docker compose:
-    - Api: Obraz aplikazji
+    - Api: Obraz aplikacji spring
     - pgdb: Obraz bazy danych PostgreSQL (latest)
       - Baza danych odtwarzana jest z inicjalnego sql: backup3.sql  
-      - Zainicjalizowana jest danymi o portach i rodzajach statków z AIS, które pochodza z darmowych i otwarych baz danych
+      - Zainicjalizowana jest danymi o portach i rodzajach statków z AIS, które pochodza z darmowych i otwarych baz danych. Zawiera również dane zebrane trackingu statków z jednego dnia 2/3.12.2021 podczas testowania aplikacji. 
 
    
 ## Prezentacja podstawowych ekranów: 
